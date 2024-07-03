@@ -1,21 +1,79 @@
+* {
+    font-family: DM Sans;
+}
 .kanban {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     justify-content: space-around;
     flex-grow: 1;
+    background-color: #2B1887;
+    color: #2B1887 ;
 }
 
 .kanban__column {
     flex: 0 0 100%;
-    background-color: gray;
+    background-color: #D5CCFF;
     border-radius: 6px;
     padding: 10px;
     margin: 0 10px 20px;
 }
 
 .kanban__title {
-    border-bottom: 2px solid black;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.task {
+    color: black;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.task-item {
+    color: black;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.date {
+    color: #2B1887;
+}
+
+.day-figure {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.day {
+    background-color: #ECB800;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+.task-name {
+    font-weight: 700;
+}
+
+#day-red {
+    background-color: #E42C5F;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
 }

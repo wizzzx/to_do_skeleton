@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 body {
   font-family: 'Arial', sans-serif;
   background-color: white;
@@ -26,7 +26,7 @@ body {
 
 header,
 footer {
-  background-color: gray;
+  background-color: #5D5FEF;
   text-align: center;
   padding: 10px 0;
 }
@@ -43,4 +43,10 @@ footer {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.day-figures {
+  display: flex;
+  flex: 0 0 auto;
+  background-color: #ECB800;
 }
